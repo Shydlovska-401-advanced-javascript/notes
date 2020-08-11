@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Shydlovska-401-advanced-javascript/notes#readme",
   "dependencies": {
     "is-url": "^1.2.4",
+    "jest": "^26.3.0",
     "minimist": "^1.2.5",
     "yargs": "^15.4.1"
   }
