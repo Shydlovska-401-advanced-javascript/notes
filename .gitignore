@@ -142,3 +142,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/vim,osx,node,linux,windows
+*.wt
+*.bson
+*.turtle
+*.data
+*Tiger*
