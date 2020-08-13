@@ -4,3 +4,8 @@
 **/coverage/*
 **/build/*
 **/docs/*
+*.wt
+*.bson
+*.turtle
+*.data
+*Tiger*
