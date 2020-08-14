@@ -1,0 +1,11 @@
+**/node_modules/*
+**/*.min.js
+**/vendor/*
+**/coverage/*
+**/build/*
+**/docs/*
+*.wt
+*.bson
+*.turtle
+*.data
+*Tiger*
