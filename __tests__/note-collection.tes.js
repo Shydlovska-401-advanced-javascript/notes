@@ -19,12 +19,12 @@ it('get() should find list of notes', async () => {
     expect(response.length > 0).toBe(true);
 });
 
-// it('delete() delete note from collection', async () => {
-//      let note = await noteCollection.create({actions: 'add', payload:'test', category:'test'});
-//      console.log(note);
-//     let deleted = await noteCollection.delete({id:note._id});
-//     console.log(deleted)
-//     expect(deleted).toBe({});
-// });
+it('delete() delete note from collection', async () => {
+     let note = await noteCollection.create({actions: 'add', text:'test', category:'test'});
+     console.log(note);
+    let deleted = await noteCollection.delete({id:note._id});
+    console.log(deleted)
+    expect(deleted).not.toBe(null);
+});
 
 });
